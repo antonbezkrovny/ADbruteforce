@@ -1,20 +1,20 @@
-AD simple bruteforce toolkit
+#AD simple bruteforce toolkit
 
-Download and install Ubuntu
-Run Ubuntu
-sudo mkdir /bruteforce
-Òhmod 777 /bruteforce
-Copy to /bruteforce:
-hashcat-2.00.tar
-libesedb.tar.gz
-ntdsextract.zip
-toHash.py
-runBruteForce.sh
-prepare.sh
-Run ìsudo bash /bruteforce/prepare.shî
-Copy /bruteforce files from AD:
-ntds.dit
-SYSTEM
-Run ìsudo bash /bruteforce/runBruteForce.shî
-Result in /bruteforce/hashcat-2.00/brute-result.txt
+* Download and install Ubuntu
+* Run Ubuntu
+* sudo mkdir /bruteforce
+* chmod 777 /bruteforce
+### Copy to /bruteforce:
+* hashcat-2.00.tar
+* libesedb.tar.gz
+* ntdsextract.zip
+* toHash.py
+* runBruteForce.sh
+* prepare.sh
+### Run ‚Äúsudo bash /bruteforce/prepare.sh‚Äù
+### Copy /bruteforce files from AD:
+* ntds.dit
+* SYSTEM
+### Run ‚Äúsudo bash /bruteforce/runBruteForce.sh‚Äù
+### Result in /bruteforce/hashcat-2.00/brute-result.txt
 
